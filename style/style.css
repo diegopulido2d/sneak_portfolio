@@ -306,4 +306,11 @@ nav {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+.main .gallery .cardRow {
+  height: 200px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+}
 /*# sourceMappingURL=style.css.map */

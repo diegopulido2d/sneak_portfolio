@@ -11,9 +11,9 @@ function getAll(){
         for (i = 0; i < fotosGaleria.length; i++){
 
             let card = document.createElement('div');
-            card.classList.add('card');
+            card.classList.add('cardRow');
             card.classList.add('card' + fotosGaleria[i]['category']);
-            card.style.backgroundImage = "url('img_tree.png')";
+            card.style.backgroundImage = "url("+fotosGaleria[i]['background']+")";
             let logo = document.createElement('span');
             logo.innerHTML = fotosGaleria[i]['logo'];
             let category = document.createElement('h5');
