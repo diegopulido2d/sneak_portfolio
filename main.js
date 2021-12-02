@@ -62,7 +62,7 @@ function cardRow(){
 function catBranding() {
     for (i = 0; i < cards.length; i++){
         if ((cards[i].classList.contains('cardBranding')) == true){
-            cards[i].style.display = "block";
+            cards[i].style.display = "flex";
         } else {
             cards[i].style.display = "none";
         }
@@ -72,7 +72,7 @@ function catBranding() {
 function catWeb() {
     for (i = 0; i < cards.length; i++){
         if ((cards[i].classList.contains('cardWeb')) == true){
-            cards[i].style.display = "block";
+            cards[i].style.display = "flex";
         } else {
             cards[i].style.display = "none";
         }
@@ -82,7 +82,7 @@ function catWeb() {
 function catPhoto() {
     for (i = 0; i < cards.length; i++){
         if ((cards[i].classList.contains('cardPhotography')) == true){
-            cards[i].style.display = "block";
+            cards[i].style.display = "flex";
         } else {
             cards[i].style.display = "none";
         }
@@ -92,7 +92,7 @@ function catPhoto() {
 function catApp() {
     for (i = 0; i < cards.length; i++){
         if ((cards[i].classList.contains('cardApp')) == true){
-            cards[i].style.display = "block";
+            cards[i].style.display = "flex";
         } else {
             cards[i].style.display = "none";
         }
@@ -101,6 +101,6 @@ function catApp() {
 
 function catAll() {
     for (i = 0; i < cards.length; i++){
-        cards[i].style.display = "block";  
+        cards[i].style.display = "flex";  
     };
 }
