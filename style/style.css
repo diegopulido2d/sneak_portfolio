@@ -323,6 +323,61 @@ nav {
   margin-bottom: 30px;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
+}
+
+.main .gallery .card .innerCard {
+  background-color: #fc758c;
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .gallery .card .innerCard span {
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.main .gallery .card .innerCard .separator {
+  height: 1px;
+  background-color: white;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.main .gallery .card .innerCard h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.main .gallery .card:hover .innerCard {
+  background-color: white;
+}
+
+.main .gallery .card:hover .innerCard span, .main .gallery .card:hover .innerCard h5 {
+  color: #fc758c;
+}
+
+.main .gallery .card:hover .innerCard .separator {
+  background-color: #fc758c;
 }
 
 .main .gallery .cardBlock {
@@ -331,5 +386,36 @@ nav {
   margin-bottom: 30px;
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .gallery .cardBlock .innerCard {
+  width: 100%;
+  height: 130px;
+  background-color: #ffffffcb;
+}
+
+.main .gallery .cardBlock .innerCard span, .main .gallery .cardBlock .innerCard h5 {
+  color: #fc758c;
+}
+
+.main .gallery .cardBlock .innerCard .separator {
+  background-color: #fc758c;
+}
+
+.main .gallery .cardBlock:hover .innerCard {
+  background-color: white !important;
 }
 /*# sourceMappingURL=style.css.map */

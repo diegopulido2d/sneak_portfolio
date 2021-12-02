@@ -280,6 +280,55 @@ nav{
             margin-bottom: 30px;
             background-size: cover;
             background-position: center;
+            cursor: pointer;
+
+            .innerCard{
+                background-color: #fc758c;
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                span{
+                    font-family: 'Questrial', sans-serif;
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    color: white;
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+
+                .separator{
+                    height: 1px;
+                    background-color: white;
+                    width: 70%;
+                    margin-top: 20px;
+                }
+
+                h5{
+                    font-family: 'Montserrat', sans-serif;
+                    color: white;
+                    font-weight: 100;
+                    letter-spacing: 2px;
+                }
+
+
+            }
+
+        }
+
+        .card:hover .innerCard{
+            background-color: white;
+
+            span, h5{
+                color: #fc758c;
+            }
+
+            .separator{
+                background-color: #fc758c;;
+            }
         }
 
         .cardBlock{
@@ -288,7 +337,32 @@ nav{
             margin-bottom: 30px;
             background-size: cover;
             background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .innerCard{
+                width: 100%;
+                height: 130px;
+                background-color: #ffffffcb;
+
+                span, h5{
+                    color: #fc758c;
+                }
+
+                .separator{
+                    background-color: #fc758c;
+                }
+
+            }
+
         }
+
+        .cardBlock:hover .innerCard{
+            background-color: white !important;
+        }
+
     }
     
 
