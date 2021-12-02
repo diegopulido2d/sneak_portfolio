@@ -1,0 +1,44 @@
+{
+    "cards": [
+      {
+        "logo": "Logo 1",
+        "category": "Branding",
+        "background": "./img/gallery/img1.jpg"
+      },
+      {
+        "logo": "Logo 2",
+        "category": "Branding",
+        "background": "./img/gallery/img2.jpg"
+      },
+      {
+        "logo": "Logo 3",
+        "category": "Web",
+        "background": "./img/gallery/img3.jpg"
+      },
+      {
+        "logo": "Logo 4",
+        "category": "Web",
+        "background": "./img/gallery/img4.jpg"
+      },
+      {
+        "logo": "Logo 5",
+        "category": "Photography",
+        "background": "./img/gallery/img5.jpg"
+      },
+      {
+        "logo": "Logo 6",
+        "category": "Photography",
+        "background": "./img/gallery/img6.jpg"
+      },
+      {
+        "logo": "Logo 7",
+        "category": "App",
+        "background": "./img/gallery/img7.jpg"
+      },
+      {
+        "logo": "Logo 8",
+        "category": "App",
+        "background": "./img/gallery/img8.jpg"
+      }
+    ]
+  }
