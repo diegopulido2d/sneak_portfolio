@@ -115,6 +115,7 @@ nav {
 
 .menu-button {
   display: none;
+  cursor: pointer;
 }
 
 .hero {
