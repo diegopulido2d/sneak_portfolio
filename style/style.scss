@@ -14,6 +14,15 @@ nav{
     border-bottom: 1px solid #d8e0e5;
 }
 
+.mobile{
+    position: fixed;
+    padding-top: 0;
+
+    ul{
+        margin: 0;
+    }
+}
+
 .logo-container, .menu-container{
     padding: 0 80px;
     display: flex;
@@ -85,11 +94,18 @@ nav{
         transition: 0.2s;
     }
 
+    .navActive:hover{
+        color: white;
+    }
+
+}
+
+.menu-button{
+    display: none;
 }
 
 
 .hero{
-    width: 100%;
     height: 97vh;
     background-color: #fc758c;
     display: flex;
@@ -144,7 +160,7 @@ nav{
 
 
 .main{
-    padding: 50px 15% 0 15%;
+    margin: 50px 15% 0 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,7 +286,6 @@ nav{
 
 
     .gallery{
-
         display: flex;
         flex-wrap: wrap;
 
@@ -366,5 +381,98 @@ nav{
 
     }
     
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .logo-container{
+        padding: 10px;
+    }
+
+    .mobile{
+        display: flex !important;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        transition: 0.2s;
+        justify-content: center;
+        background-color: white;
+        border-bottom: 1px solid #d8e0e5;
+    }
+
+    .menu-container{
+        display: none;
+    }
+
+    
+    .menu-container ul {
+
+        li{
+            padding: 8px !important;
+        }
+    }
+
+    .hero{
+        padding: 40% 10px 0 10px;
+        height: 500px;
+    }
+
+    .main{
+        margin: 20px 20px 0 20px;
+
+        .card{
+            width: 100%;
+            height: 200px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .innerCard{
+                width: 100% !important;
+                height: 130px !important;
+                background-color: #ffffffcb !important;
+
+                span, h5{
+                    color: #fc758c !important;
+                }
+
+                .separator{
+                    background-color: #fc758c !important;
+                }
+
+            }
+
+        }
+
+    }
+
+    .toolbar{
+        display: none !important;
+    }
+
+
+    footer p{
+        font-size: 10px;
+    }
+
+
+    .menu-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 25px;
+
+        i{
+            color: #fc758c;
+        }
+    }
+
 
 }

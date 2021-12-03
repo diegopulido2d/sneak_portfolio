@@ -104,3 +104,19 @@ function catAll() {
         cards[i].style.display = "flex";  
     };
 }
+
+
+
+function dropMenu(){
+    let menuMobile = document.getElementsByClassName('mobile')[0];
+
+    if (menuMobile.classList.contains('drop') == true) {
+        menuMobile.style.paddingTop = "0px";
+        menuMobile.classList.remove('drop');
+    } else {
+        menuMobile.classList.add('drop');
+        menuMobile.style.paddingTop = "75px";
+    }
+
+    
+}
